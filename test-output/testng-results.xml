@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15336" started-at="2018-09-18T13:27:52Z" finished-at="2018-09-18T13:28:08Z">
+  <suite name="Default suite" duration-ms="14517" started-at="2018-09-18T13:40:19Z" finished-at="2018-09-18T13:40:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15336" started-at="2018-09-18T13:27:52Z" finished-at="2018-09-18T13:28:08Z">
+    <test name="Default test" duration-ms="14517" started-at="2018-09-18T13:40:19Z" finished-at="2018-09-18T13:40:34Z">
       <class name="testcases.BaiduTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.BaiduTest@6a41eaa2]" name="beforeTest" is-config="true" duration-ms="33" started-at="2018-09-18T13:27:52Z" finished-at="2018-09-18T13:27:53Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.BaiduTest@6a41eaa2]" name="beforeTest" is-config="true" duration-ms="36" started-at="2018-09-18T13:40:19Z" finished-at="2018-09-18T13:40:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:testcases.BaiduTest@6a41eaa2]" name="f" duration-ms="15200" started-at="2018-09-18T13:27:53Z" finished-at="2018-09-18T13:28:08Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:testcases.BaiduTest@6a41eaa2]" name="f" duration-ms="14400" started-at="2018-09-18T13:40:19Z" finished-at="2018-09-18T13:40:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.BaiduTest@6a41eaa2]" name="afterTest" is-config="true" duration-ms="6" started-at="2018-09-18T13:28:08Z" finished-at="2018-09-18T13:28:08Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.BaiduTest@6a41eaa2]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-09-18T13:40:34Z" finished-at="2018-09-18T13:40:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
