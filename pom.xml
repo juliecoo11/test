@@ -18,7 +18,26 @@
     <version>6.14.3</version>
     <scope>test</scope>
 </dependency>
-  	
+	<!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
+<dependency>
+    <groupId>org.uncommons</groupId>
+    <artifactId>reportng</artifactId>
+    <version>1.1.4</version>
+    <scope>test</scope>
+    <exclusions>
+		<exclusion>
+		<groupId>org.testng</groupId>
+		<artifactId>testng</artifactId>
+		</exclusion>
+	</exclusions>
+</dependency>
+	<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+<dependency>
+    <groupId>com.google.inject</groupId>
+    <artifactId>guice</artifactId>
+    <version>3.0</version>
+</dependency>
+	
   </dependencies>
   
 	<build>
@@ -32,6 +51,21 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>${project.basedir}/src/test/java/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    
+                    <properties>
+						<property>
+							<name>usedefaultlisteners</name>
+							<value>false</value>
+						</property>
+						<property>
+							<name>listener</name>
+							<value>org.uncommons.reportng.HTMLReporter,
+								org.uncommons.reportng.JUnitXMLReporter
+							</value>
+						</property>
+					</properties>
+					
+					<workingDirectory>target/</workingDirectory>
                 </configuration>
             </plugin>
 	  		<!-- 编译的时候使用JDK8和UTF8编码 -->
